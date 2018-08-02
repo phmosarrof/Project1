@@ -8,30 +8,29 @@ public class ScannerTest001 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);  
+		//Scanner sc = new Scanner(System.in); 
+		Scanner SD = new Scanner(System.in);
 	     
-		   System.out.println("Enter your roll no:");  
+		   System.out.println("Enter your roll No:");  
 		   
-		   int roll_no=sc.nextInt(); 
+		   int roll_no = SD.nextInt(); 
 		   
 		   System.out.println("Enter your name:");
 		   
-		   String Name=sc.next();  
+		   String Name = SD.next();
 		   
 		   System.out.println("Enter your Registration NO:"); 
 		   
-		   int Registration_NO =sc.nextInt(); 
+		   int Registration_NO = SD.nextInt();
 		   
 		   System.out.println("Enter your mark:");
 		   
+		   double Mark = SD.nextDouble();
 		   
-		   double Mark = sc.nextDouble();
-		   
-	
 		   System.out.println("\nYour Roll No:"+roll_no+"\nName:"+Name+"\nRegistration NO:"
 			   		+ ""+Registration_NO+"\nYour Mark is :"+Mark); 
 		   
-		   sc.close();  
+		   SD.close();  
 	}
 }
 
