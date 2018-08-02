@@ -29,8 +29,12 @@ public class ScannerTest001 {
 		   
 		   System.out.println("\nYour Roll No:"+roll_no+"\nName:"+Name+"\nRegistration NO:"
 			   		+ ""+Registration_NO+"\nYour Mark is :"+Mark); 
+		 
 		   
-		   SD.close();  
+		   SD.close(); 
+		   if (Mark==80) {
+			   System.out.println("Grade = A");
+		   }
 	}
 }
 
