@@ -10,20 +10,20 @@ public class ScannerTest001 {
 		
 		//Scanner sc = new Scanner(System.in); 
 		Scanner SD = new Scanner(System.in);
-	     
+	     //Please Enter the individual Student Name and Roll
 		   System.out.println("Enter your roll No:");  
 		   
 		   int roll_no = SD.nextInt(); 
 		   
-		   System.out.println("Enter your name:");
+		   System.out.println("EnterStudent Name:");
 		   
 		   String Name = SD.next();
 		   
-		   System.out.println("Enter your Registration NO:"); 
+		   System.out.println("Enter Student Registration NO:"); 
 		   
 		   int Registration_NO = SD.nextInt();
 		   
-		   System.out.println("Enter your mark:");
+		   System.out.println("Enter Student mark:");
 		   
 		   double Mark = SD.nextDouble();
 		   
