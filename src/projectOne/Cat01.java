@@ -8,8 +8,7 @@ package projectOne;
  *
  */
 class Cat01 {
-	public void() {
+	
 }
 
 	
-}

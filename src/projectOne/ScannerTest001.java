@@ -23,7 +23,11 @@ public class ScannerTest001 {
 		   
 		   int Registration_NO = SD.nextInt();
 		   
+<<<<<<< HEAD
 		   System.out.println("Enter Student mark:");
+=======
+		   System.out.println("Enter the student mark:");
+>>>>>>> Br_Project
 		   
 		   double Mark = SD.nextDouble();
 		   
