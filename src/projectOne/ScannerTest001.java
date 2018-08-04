@@ -32,10 +32,9 @@ public class ScannerTest001 {
 		 
 		   
 		   SD.close(); 
-		   if (Mark==80) {
-			   System.out.println("Grade = A");
+		  
 		   }
 	}
-}
+
 
  
